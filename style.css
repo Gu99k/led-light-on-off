@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  background: url(img/bg.jpg);
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-50px -50%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.rectangle-yard {
+  width: 80%;
+  height: 80%;
+  background-color: #2c57a445;
+  border-radius: 10px;
+}
+.yard {
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container h2 {
+  color: aliceblue;
+  font-size: 2rem;
+  padding: 2rem;
+  text-align: center;
+  font-family: cursive;
+}
+.pannel {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(29, 27, 27);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.pannel button {
+  height: 6rem;
+  width: 12rem;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 15px;
+  cursor: pointer;
+}
+.pannel .b1 {
+  border: 1px solid rgb(71, 199, 71);
+  background-color: rgb(71, 199, 71);
+}
+.pannel .b2 {
+  border: 1px solid crimson;
+  background-color: crimson;
+}
+.bulb-yard {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(29, 27, 27);
+  border-radius: 10px;
+}
+.buld-holder {
+  width: 40px;
+  height: 56px;
+  align-items: center;
+  background-color: cornflowerblue;
+  font-size: 0.8rem;
+  font-weight: 800;
+
+  margin: 16px auto;
+  display: grid;
+}
+.brd {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+#bulb {
+  height: 200px;
+  width: 200px;
+  background-color: gray;
+  border: 25px solid rgb(0, 59, 83);
+  border-radius: 50%;
+  border-top: 20px rgb(89, 4, 95);
+  animation: anim 2.5s linear infinite;
+
+  margin: -17px auto;
+}
+
+@media only screen and (max-width: 750px) {
+  .container h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .yard {
+    /* margin: 0 auto;*/
+    flex-direction: column;
+    .pannel {
+      height: 250px;
+      width: 250px;
+    }
+    .bulb-yard {
+      height: 250px;
+      width: 250px;
+    }
+    .pannel button {
+      height: 4rem;
+      width: 8rem;
+    }
+    #bulb {
+      height: 150px;
+      width: 150px;
+    }
+  }
+}
