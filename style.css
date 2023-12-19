@@ -72,9 +72,11 @@ body {
 }
 .pannel .b1:hover {
   background-color: rgb(176, 255, 176);
+  transition: 0.3s all ease-in-out;
 }
 .pannel .b2:hover {
   background-color: rgb(255, 180, 195);
+  transition: 0.3s all ease-in-out;
 }
 .bulb-yard {
   height: 300px;
