@@ -70,6 +70,12 @@ body {
   border: 1px solid crimson;
   background-color: crimson;
 }
+.pannel .b1:hover {
+  background-color: rgb(176, 255, 176);
+}
+.pannel .b2:hover {
+  background-color: rgb(255, 180, 195);
+}
 .bulb-yard {
   height: 300px;
   width: 300px;
@@ -123,6 +129,7 @@ body {
     .pannel button {
       height: 4rem;
       width: 8rem;
+      font-size: 3rem;
     }
     #bulb {
       height: 150px;
